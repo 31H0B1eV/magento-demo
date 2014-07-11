@@ -13,5 +13,4 @@ echo get_class($customer);
 
 $customer2 = Mage::getModel("customer/session");  // same as 10 string but with Factory pattern
 
-echo "<br />";
-echo get_class($customer2);
+echo "<br />".get_class($customer2);
